@@ -1,0 +1,28 @@
+{
+  "name": "makan",
+  "version": "1.0.0",
+  "description": "projet d'authentification avec nodejs",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongodb": "^3.4.0",
+    "mongoose": "^5.7.12",
+    "node": "^14.4.0",
+    "nodemon": "^2.0.6",
+    "vue": "^2.6.11",
+    "vue-router": "^3.1.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "diombana",
+  "license": "ISC"
+}
